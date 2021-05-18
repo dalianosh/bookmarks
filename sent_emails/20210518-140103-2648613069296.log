@@ -1,0 +1,16 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: aa@gmail.com
+Date: Tue, 18 May 2021 09:31:03 -0000
+Message-ID: <162133026345.5300.11786360621086644068@DESKTOP-QN67KT0>
+
+Somone asked for password reset for email aa@gmail.com. 
+Follow the link below:
+https://localhost:8000 /account/password_reset/MQ/amuk9r-0074377c05697cab5734df59717748e6/
+
+Your username, in case you've forgotten: dal
+
+-------------------------------------------------------------------------------
