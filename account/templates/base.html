@@ -6,6 +6,8 @@
 <link href="{% static "css/base.css" %}" rel="stylesheet">
 </head>
 <body>
+
+{% comment %} header part of body {% endcomment %}
 <div id="header">
 <span class="logo">Bookmarks</span>
 {% if request.user.is_authenticated %}
@@ -30,9 +32,29 @@ Hello {{ request.user.first_name }},
 {% endif %}
 </span>
 </div>
+{% comment %} end of header part {% endcomment %}
+
+
+{% comment %} messages {% endcomment %}
+{% if messages %}
+    <ul class="messages">
+    {% for message in messages%}
+        <li class="{{message.tags}}"">
+        {{ message|safe }}
+        <a href="#" class="close">x</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+{% comment %} end of messages {% endcomment %}
+
+{% comment %} content part of body {% endcomment %}
 <div id="content">
 {% block content %}
 {% endblock %}
 </div>
+{% comment %} end of content part of body {% endcomment %}
+
+
 </body>
 </html>

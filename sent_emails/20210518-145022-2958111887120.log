@@ -1,0 +1,16 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: ff@gg.com
+Date: Tue, 18 May 2021 10:20:22 -0000
+Message-ID: <162133322213.13108.12240717284842556617@DESKTOP-QN67KT0>
+
+Somone asked for password reset for email ff@gg.com. 
+Follow the link below:
+http://localhost:8000/account/password_reset/NA/amumjy-d6338c18daa5aa5ca1f284ab7f1a81cf/
+
+Your username, in case you've forgotten: shib
+
+-------------------------------------------------------------------------------
