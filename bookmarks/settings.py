@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'social_django',
-    'images.apps.ImagesConfig'
+    'images.apps.ImagesConfig',
+    'django_extensions'
     
     # my apps
     
