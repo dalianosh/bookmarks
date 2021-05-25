@@ -1,7 +1,7 @@
 
 
 (function () {
-    var jquery_version  = '3.4.1';
+    var jquery_version  = '3.6.0';
     var site_url  = 'https://127.0.0.1:8000';
     var static_url  = site_url + 'static/';
     var min_width  = 100;
@@ -67,7 +67,7 @@ jQuery('#bookmarklet .images a').click(function(e){
 
         // create the script and point to Google API
         var script = document.createElement('script');
-        script.src = '//ajax.googleapis.com/ajax/libs/jquery/'+jquery_version+'/jquery.min.js';
+        script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/'+jquery_version+'/jquery.min.js';
 
         // Add script to the 'head' for processing 
         document.head.appendChild(script);

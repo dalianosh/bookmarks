@@ -51,3 +51,8 @@
     border:1px solid #12c064;
     opacity:1; 
 }
+
+#bookmarklet .image-detail {
+    border: 3 px solid blakc;
+    border-radius: 3px;
+}
